@@ -1,0 +1,45 @@
+git clone ProjectUrl
+
+--------------------
+
+Scenario 1 : 
+Create new Project
+Github repo -- create repo 
+
+git init --- empty .git
+git remote add origin ProjectUrl
+git add .       ---- unstage ---> stage // git add filelocation
+git commit -m "Message"
+git config --global user.email "mail id"
+git config --global user.name "username"
+git commit -m "Message"
+git push origin master
+
+Autorization ---> 
+ -Click on Browser login --
+ -Click on authorizied git ecosystem
+ -provide the pwd of github account
+
+Scenario 2 : we created one script 
+
+git add .
+git commit -m "Message"
+git push origin master
+
+Scenario 3 : we created one script 
+
+git status ---> deatials untrack/modify 
+git add filelocation
+git commit -m "Message"
+git push origin master
+
+Scenario 4: TC_004 assign 
+
+git branch branchname
+git checkout branchname 
+git pull origin master
+--create the script ------
+git status 
+git add location
+git commit -m "message"
+git push origin branchname 

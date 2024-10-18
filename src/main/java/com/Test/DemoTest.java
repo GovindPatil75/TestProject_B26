@@ -6,6 +6,7 @@ public class DemoTest {
 		
 		System.out.println("Welcome To BugSpotter");
 
+		System.out.println("Welcome To BugSpotter");
 	}
 
 }
