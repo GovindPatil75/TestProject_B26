@@ -43,3 +43,81 @@ git status
 git add location
 git commit -m "message"
 git push origin branchname 
+
+
+Scenario 5 : Jira BS_123 -Test_1
+
+git branch BS_123
+git checkout BS_123
+git pull origin master
+----Start writting script ----
+git add location
+git commit -m "Message"
+git push origin BS_123
+
+---Repo PR raise -----
+Message --Add reviwer 
+-Script review --- Commnets 
+we need to update the script 
+
+git add Location
+git commit -m "Updated test case"
+git push origin BS_123
+
+--PR again reviewer review --Approve 
+we can merge that script to the master 
+
+we can closed the Automation Jira BS_123
+
+===============================
+Task : 
+
+Github ready : 
+mock discussin group  --4
+New project Repo ---
+Same project eclipse 
+push karel --Repo
+3 add as collabarators 
+
+Repo -Url -- 3 provide project clone 
+Import Eclipse -- 
+
+git branch branchname
+git checkout Branchname
+git pull origin master
+
+---Script Test_001-------
+git status
+git add location 
+git commit -m "Message"
+git push origin branchname
+
+---Repo --Raise The Pull request 
+Add reviewer --3 Reviewer
+
+--Update the changes ---
+
+-->eclipse update automation script ---
+git status
+git add location
+git commit -m "message"
+git push origin branchname 
+
+---No new PR raise ---
+
+again reviewer review --- Approved 
+merge -- Master 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
